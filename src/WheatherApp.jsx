@@ -26,10 +26,11 @@ export const WheatherApp = () => {
 
             <form onSubmit={handleSubmit}>
                 <input
-                    type="text"
+                    type="search"
                     value={ciudad}
                     onChange={handlerCambioCiudad}
                     placeholder='Buscar ciudad...'
+                    className='form-control'
                 />
                 <button className="d-none d-md-block" type="submit">Buscar</button>
             </form>
