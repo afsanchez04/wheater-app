@@ -29,8 +29,9 @@ export const WheatherApp = () => {
                     type="text"
                     value={ciudad}
                     onChange={handlerCambioCiudad}
+                    placeholder='Buscar ciudad...'
                 />
-                <button type="submit">Buscar</button>
+                <button className="d-none d-md-block" type="submit">Buscar</button>
             </form>
 
             {
