@@ -31,6 +31,7 @@ export const WheatherApp = () => {
                     onChange={handlerCambioCiudad}
                     placeholder='Buscar ciudad...'
                     className='form-control'
+                    enterkeyhint="Search"
                 />
                 <button className="d-none d-md-block" type="submit">Buscar</button>
             </form>
